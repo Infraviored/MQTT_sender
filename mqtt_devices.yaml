@@ -1,0 +1,278 @@
+
+switch:
+  - unique_id: RC_Plug_A
+    name: "RC Steckdose A"
+    command_topic: "Sender/RC/A"
+    payload_on: "ON"
+    payload_off: "OFF" 
+    availability:
+      - topic: "Sender/state"
+    state_on: "ON"
+    state_off: "OFF"
+    icon: mdi:power-socket-de
+    qos: 0
+    retain: true
+  - unique_id: RC_Plug_B
+    name: "RC Steckdose B"
+    command_topic: "Sender/RC/B"
+    payload_on: "ON"
+    payload_off: "OFF" 
+    availability:
+      - topic: "Sender/state"
+    state_on: "ON"
+    state_off: "OFF"
+    icon: mdi:power-socket-de
+    qos: 0
+    retain: true
+  - unique_id: RC_Plug_C
+    name: "RC Steckdose C"
+    command_topic: "Sender/RC/C"
+    payload_on: "ON"
+    payload_off: "OFF" 
+    availability:
+      - topic: "Sender/state"
+    state_on: "ON"
+    state_off: "OFF"
+    icon: mdi:power-socket-de
+    qos: 0
+    retain: true
+  - unique_id: RC_Plug_D
+    name: "RC Steckdose D"
+    command_topic: "Sender/RC/D"
+    payload_on: "ON"
+    payload_off: "OFF" 
+    availability:
+      - topic: "Sender/state"
+    state_on: "ON"
+    state_off: "OFF"
+    icon: mdi:power-socket-de
+    qos: 0
+    retain: true
+button:
+  - unique_id: button_zinc
+    name: "Zinc"
+    command_topic: "pilldispenser/commands"
+    payload_press: "dispense_zinc"
+    icon: mdi:pill
+    qos: 0
+    retain: false
+  - unique_id: button_omega
+    name: "Omega 3"
+    command_topic: "pilldispenser/commands"
+    payload_press: "dispense_omega"
+    icon: mdi:pill
+    qos: 0
+    retain: false
+  - unique_id: button_magnesium
+    name: "Magnesium"
+    command_topic: "pilldispenser/commands"
+    payload_press: "dispense_magnesium"
+    icon: mdi:pill
+    qos: 0
+    retain: false
+  - unique_id: button_PC
+    name: "PC"
+    command_topic: "Sender/RC/PC"
+    payload_press: "on"
+    availability:
+      - topic: "Sender/state"
+    payload_available: "on"
+    icon: mdi:desktop-classic
+    qos: 0
+    retain: false
+
+    
+  - unique_id: tv_remote_power
+    name: "TV Remote Power"
+    command_topic: "Sender/IR"
+    payload_press: "POWER"
+    icon: mdi:power
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_source
+    name: "TV Remote Source"
+    command_topic: "Sender/IR"
+    payload_press: "SOURCE"
+    icon: mdi:television
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_1
+    name: "TV Remote 1"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_1"
+    icon: mdi:numeric-1-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_2
+    name: "TV Remote 2"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_2"
+    icon: mdi:numeric-2-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_3
+    name: "TV Remote 3"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_3"
+    icon: mdi:numeric-3-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_4
+    name: "TV Remote 4"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_4"
+    icon: mdi:numeric-4-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_5
+    name: "TV Remote 5"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_5"
+    icon: mdi:numeric-5-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_6
+    name: "TV Remote 6"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_6"
+    icon: mdi:numeric-6-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_7
+    name: "TV Remote 7"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_7"
+    icon: mdi:numeric-7-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_8
+    name: "TV Remote 8"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_8"
+    icon: mdi:numeric-8-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_9
+    name: "TV Remote 9"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_9"
+    icon: mdi:numeric-9-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_number_0
+    name: "TV Remote 0"
+    command_topic: "Sender/IR"
+    payload_press: "NUMBER_0"
+    icon: mdi:numeric-0-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_volume_up
+    name: "TV Remote Volume Up"
+    command_topic: "Sender/IR"
+    payload_press: "VOLUME_UP"
+    icon: mdi:volume-plus
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_volume_down
+    name: "TV Remote Volume Down"
+    command_topic: "Sender/IR"
+    payload_press: "VOLUME_DOWN"
+    icon: mdi:volume-minus
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_channel_up
+    name: "TV Remote Channel Up"
+    command_topic: "Sender/IR"
+    payload_press: "CHANNEL_UP"
+    icon: mdi:arrow-up-bold-box-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_channel_down
+    name: "TV Remote Channel Down"
+    command_topic: "Sender/IR"
+    payload_press: "CHANNEL_DOWN"
+    icon: mdi:arrow-down-bold-box-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_mute
+    name: "TV Remote Mute"
+    command_topic: "Sender/IR"
+    payload_press: "MUTE"
+    icon: mdi:volume-off
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_info
+    name: "TV Remote Info"
+    command_topic: "Sender/IR"
+    payload_press: "INFO"
+    icon: mdi:information
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_menu
+    name: "TV Remote Menu"
+    command_topic: "Sender/IR"
+    payload_press: "MENU"
+    icon: mdi:menu
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_guide
+    name: "TV Remote Guide"
+    command_topic: "Sender/IR"
+    payload_press: "GUIDE"
+    icon: mdi:television-guide
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_return
+    name: "TV Remote Return"
+    command_topic: "Sender/IR"
+    payload_press: "RETURN"
+    icon: mdi:arrow-left-bold-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_exit
+    name: "TV Remote Exit"
+    command_topic: "Sender/IR"
+    payload_press: "EXIT"
+    icon: mdi:exit-to-app
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_up
+    name: "TV Remote Up"
+    command_topic: "Sender/IR"
+    payload_press: "UP"
+    icon: mdi:arrow-up-bold-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_down
+    name: "TV Remote Down"
+    command_topic: "Sender/IR"
+    payload_press: "DOWN"
+    icon: mdi:arrow-down-bold-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_left
+    name: "TV Remote Left"
+    command_topic: "Sender/IR"
+    payload_press: "LEFT"
+    icon: mdi:arrow-left-bold-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_right
+    name: "TV Remote Right"
+    command_topic: "Sender/IR"
+    payload_press: "RIGHT"
+    icon: mdi:arrow-right-bold-circle-outline
+    qos: 0
+    retain: false
+  - unique_id: tv_remote_enter
+    name: "TV Remote Enter"
+    command_topic: "Sender/IR"
+    payload_press: "ENTER"
+    icon: mdi:check-bold
+
+
+sensor:
+  - name: "Pilldispenser Status"
+    state_topic: "pilldispenser/state"
+  - name: "RC Sender Status"
+    state_topic: "Sender/state"

@@ -1,0 +1,238 @@
+type: grid
+columns: 4
+square: true
+cards:
+  - type: button
+    entity: button.tv_remote_0
+    name: " "
+    icon: mdi:numeric-0-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_0
+  - type: button
+    entity: button.tv_remote_1
+    name: " "
+    icon: mdi:numeric-1-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_1
+  - type: button
+    entity: button.tv_remote_2
+    name: " "
+    icon: mdi:numeric-2-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_2
+  - type: button
+    entity: button.tv_remote_3
+    name: " "
+    icon: mdi:numeric-3-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_3
+  - type: button
+    entity: button.tv_remote_4
+    name: " "
+    icon: mdi:numeric-4-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_4
+  - type: button
+    entity: button.tv_remote_5
+    name: " "
+    icon: mdi:numeric-5-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_5
+  - type: button
+    entity: button.tv_remote_6
+    name: " "
+    icon: mdi:numeric-6-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_6
+  - type: button
+    entity: button.tv_remote_7
+    name: " "
+    icon: mdi:numeric-7-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_7
+  - type: button
+    entity: button.tv_remote_8
+    name: " "
+    icon: mdi:numeric-8-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_8
+  - type: button
+    entity: button.tv_remote_9
+    name: " "
+    icon: mdi:numeric-9-circle-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_9
+  - type: button
+    entity: button.tv_remote_power
+    name: " "
+    icon: mdi:power
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_power
+  - type: button
+    entity: button.tv_remote_source
+    name: " "
+    icon: mdi:television
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_source
+  - type: button
+    entity: button.tv_remote_volume_up
+    name: " "
+    icon: mdi:volume-plus
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_volume_up
+  - type: button
+    entity: button.tv_remote_volume_down
+    name: " "
+    icon: mdi:volume-minus
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_volume_down
+  - type: button
+    entity: button.tv_remote_channel_up
+    name: " "
+    icon: mdi:arrow-up-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_channel_up
+  - type: button
+    entity: button.tv_remote_channel_down
+    name: " "
+    icon: mdi:arrow-down-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_channel_down
+  - type: button
+    entity: button.tv_remote_mute
+    name: " "
+    icon: mdi:volume-off
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_mute
+  - type: button
+    entity: button.tv_remote_up
+    name: " "
+    icon: mdi:arrow-up-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_up
+  - type: button
+    entity: button.tv_remote_info
+    name: " "
+    icon: mdi:information-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_info
+  - type: button
+    entity: button.tv_remote_menu
+    name: " "
+    icon: mdi:menu
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_menu
+  - type: button
+    entity: button.tv_remote_left
+    name: " "
+    icon: mdi:arrow-left-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_left
+  - type: button
+    entity: button.tv_remote_enter
+    name: " "
+    icon: mdi:check-bold
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_enter
+  - type: button
+    entity: button.tv_remote_right
+    name: " "
+    icon: mdi:arrow-right-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_right
+  - type: button
+    entity: button.tv_remote_exit
+    name: " "
+    icon: mdi:exit-to-app
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_exit
+  - type: button
+    entity: button.tv_remote_return
+    name: " "
+    icon: mdi:arrow-left
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_return
+  - type: button
+    entity: button.tv_remote_down
+    name: " "
+    icon: mdi:arrow-down-bold-box-outline
+    tap_action:
+      action: call-service
+      service: button.press
+      service_data:
+        entity_id: button.tv_remote_down
